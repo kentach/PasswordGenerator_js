@@ -1,0 +1,66 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 30px auto;
+  width: 380px;
+  box-shadow: 0px 0px 8px #999;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+main p {
+  padding: 12px 20px;
+  border: solid 1px #aaa;
+  border-radius: 7px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 24px;
+  text-align: center;
+}
+
+main button {
+  all: unset;
+  width: 100%;
+  margin: 16px 0;
+  color: #fff;
+  background-color: #08c;
+  text-align: center;
+  border-radius: 8px;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+main button:hover {
+  opacity: 0.9;
+}
+
+main button:active {
+  opacity: 0.6;
+}
+
+main fieldset {
+  border: 1px dashed #aaa;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+legend {
+  padding: 0 8px;
+}
+
+#password-length {
+  width: 16px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* 
+  spanタグはinline要素
+  インライン要素のように横並びにできる一方で、
+  ブロック要素のように幅や高さを指定できる
+*/
