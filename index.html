@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>パスワード生成アプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p>sdsdsdsds</p>
+    <button>パスワードを生成</button>
+    <!-- フォーム内の関連する入力項目をグループ化するためのタグ -->
+    <fieldset> 
+      <!-- そのグループのタイトル -->
+      <legend>オプション</legend>
+      <!-- 各入力項目の説明を付ける -->
+      <label for="">
+        長さ(<span id="password-length">8</span>)
+        <input type="range" id="slider" min="8" max="24" value="8">
+      </label> 
+
+      <label for="">
+        数字
+        <input type="checkbox">
+      </label> 
+
+      <label for="">
+        記号
+        <input type="checkbox">
+      </label> 
+
+    </fieldset>
+  </main>
+  
+  <script src="index.js">長さ(8)</script>
+</body>
+</html>
